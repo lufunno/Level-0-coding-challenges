@@ -10,4 +10,3 @@ function stringCompare(str, strng) {
     } 
     return strCmp;
 }
-console.log(stringCompare('lufuno', 'lu'));
