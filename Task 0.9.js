@@ -7,5 +7,6 @@ function vowels(str){
     else{
         var lowerVowels =  [str.match(/[aeiou]/g)];
         var vowelsResults = lowerVowels.join();
-        console.log(vowelsResults);     
-} 
+        console.log(vowelsResults);  
+    } 
+}
