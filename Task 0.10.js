@@ -1,12 +1,12 @@
-function stringCompare(str, strng) {
-    var strCmp = [];
-   
-    for (i=0; i<str.length; i++) {
-        for (j=0; j<strng.length; j++) {
-            if (str.charAt(i) == strng.charAt(j)) {
-                strCmp += str.charAt(i) + ', ';        
-            }
+function stringChar(str,strng){
+    
+    var charCompare =[];
+
+    for (var i=0; i<strng.length;i++){
+        if (str.includes (strng[i])){
+            charCompare.push(strng[i]);
         }
-    } 
-    return strCmp;
+    }
+    var char = charCompare.join();
+    return char;   
 }
