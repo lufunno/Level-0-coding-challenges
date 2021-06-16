@@ -8,5 +8,5 @@ function stringChar(str,strng){
         }
     }
     var char = charCompare.join();
-    return char;   
+    console.log(char);
 }
