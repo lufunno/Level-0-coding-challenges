@@ -14,7 +14,7 @@ function timeConverter(minutes){
             console.log(hour + " hour");    
         }
     }
-    else if(hour > 1 && minutes < 60 || minutes > 60){
+    else if(hour > 1 && minutes < 60 ){
         console.log(hour + " hours " + minutes + " minutes")
     }
     else if(hour == 1 && minutes < 60 || minutes > 60){
