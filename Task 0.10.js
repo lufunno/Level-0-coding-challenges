@@ -1,10 +1,10 @@
-function stringChar(str,strng){
+function stringChar(str1,str2){
     
     var charCompare =[];
 
-    for (var i=0; i<strng.length;i++){
-        if (str.includes (strng[i])){
-            charCompare.push(strng[i]);
+    for (var i=0; i<str2.length;i++){
+        if (str1.includes (str2[i])){
+            charCompare.push(str2[i]);
         }
     }
     var char = charCompare.join();
