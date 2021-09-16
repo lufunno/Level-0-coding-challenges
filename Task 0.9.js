@@ -1,12 +1,12 @@
-function vowels(str){
+function Vowels(str){
     if(str == str.toUpperCase()){
-    var CapitalVowels =  [str.match(/[AEIOU]/g)]; 
-    var vowelsResults = CapitalVowels.join();
+    let capitalVowels =  [str.match(/[AEIOU]/g)]; 
+    let vowelsResults = capitalVowels.join();
     console.log(vowelsResults);
     }
     else{
-        var lowerVowels =  [str.match(/[aeiou]/g)];
-        var vowelsResults = lowerVowels.join();
+        let lowerVowels =  [str.match(/[aeiou]/g)];
+        let vowelsResults = lowerVowels.join();
         console.log(vowelsResults);  
     } 
 }
