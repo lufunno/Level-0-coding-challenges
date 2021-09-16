@@ -33,4 +33,4 @@ function TimeConverter(minutes){
         console.log(min + " minutes ")
     }  
 }
-TimeConverter(120);
+TimeConverter(120)
