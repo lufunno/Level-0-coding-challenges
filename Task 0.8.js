@@ -1,6 +1,6 @@
-function timeConverter(minutes){
-    var hour = 0;
-    var min = minutes
+function TimeConverter(minutes){
+    let hour = 0;
+    let min = minutes
     while(minutes > 60){
         minutes -= 60;
         hour++;
