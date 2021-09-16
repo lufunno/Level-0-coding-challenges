@@ -10,3 +10,4 @@ function Vowels(str){
         console.log(vowelsResults);  
     } 
 }
+Vowels("Umuzi");
