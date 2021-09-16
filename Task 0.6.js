@@ -1,5 +1,5 @@
 function MaximumNumber(...input) {
-    var temp = 0;
+    let temp = 0;
     for (var i = 0; i < input.length; i++) {
         for (var j = i; j < input.length; j++) {
             if (input[j] < input[i]) {
@@ -9,7 +9,7 @@ function MaximumNumber(...input) {
             }
         }
     }
-    var finalResult = input[input.length -1];
+    let finalResult = input[input.length -1];
     return finalResult;
 }
 console.log(MaximumNumber(20, 30));
