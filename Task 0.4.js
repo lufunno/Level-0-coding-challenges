@@ -1,4 +1,4 @@
-function EvenOrOdd(num){
+function evenOrOdd(num){
     if(num % 2 == 0){
         console.log("even");
     }
@@ -6,4 +6,4 @@ function EvenOrOdd(num){
         console.log("odd");
     }
 }
-EvenOrOdd(1);
+evenOrOdd(1);
