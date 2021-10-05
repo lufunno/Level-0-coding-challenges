@@ -1,7 +1,7 @@
-let sumResult_1 =  1 + 1 * 2;
-let sumResult_2 = (1 + 1) * 2;
-let sumResult_3 = 1 + ( 1 * 2 );
-let sumResult_4 = 1 + 1 * 2 / 2;
-let sumResult_5 = (1 + 1 * 2 ) /  2;
+let x =  1 + 1 * 2;
+let y = (1 + 1) * 2;
+let z = 1 + ( 1 * 2 );
+let a = 1 + 1 * 2 / 2;
+let b = (1 + 1 * 2 ) /  2;
 
-console.log(sumResult_1 + " " +sumResult_2 + " " + sumResult_3 + " " + sumResult_4 + " " + sumResult_5)
+console.log(x + " " + y + " " + z + " " + a + " " + b);
