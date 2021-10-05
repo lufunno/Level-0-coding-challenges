@@ -1,11 +1,11 @@
-let number_1 = 0; 
-let number_2 = 1;
+let x = 0; 
+let y = 1;
 
-console.log(number_1);
-console.log(number_2);
+console.log(x);
+console.log(y);
 
-number_1 = number_1 + 3;
-number_2 = number_2 + number_1;
+x = x + 3;
+y =  + x;
 
-console.log(number_1);
-console.log(number_2);
+console.log(x);
+console.log(y);
