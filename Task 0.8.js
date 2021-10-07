@@ -1,36 +1,17 @@
-function TimeConverter(minutes){
-    let hour = 0;
-    let min = minutes
-    while(minutes > 60){
-        minutes -= 60;
-        hour++;
+function timeConverter(num) {
+    let timeString;
+    const hour = Math.floor(num / 60);
+    const minute = num % 60;
+
+    if ((hour > 1 || hour === 0) && (minute > 1 || minute === 0)) {
+        timeString = `${hour} hours, ${minute} minutes.`;
+    } else if ((hour > 1 || hour === 0) && minute === 1) {
+        timeString = `${hour} hours, ${minute} minute.`;
+    } else if (hour === 1 && (minute > 1 || minute === 0)) {
+        timeString = `${hour} hour, ${minute} minutes.`;
+    } else {
+        timeString = `${hour} hour, ${minute} minute.`;
     }
-    if (minutes == 60){
-        hour++;
-        if(hour > 1){
-        console.log(hour + " hours");
-        }
-        else{
-            console.log(hour + " hour");    
-        }
-    }
-    else if(hour > 1 && minutes > 1){
-        console.log(hour + " hours " + minutes + " minutes")
-    }
-    else if(hour > 1 && minutes == 1){
-        console.log(hour + " hours " + minutes + " minute")
-    }
-    else if(hour == 1 && minutes > 1){
-        console.log(hour + " hour " + minutes + " minutes")
-    }
-    else if(hour == 1 && minutes == 1){
-        console.log(hour + " hour " + minutes + " minute")
-    }
-    else if (min == 1){
-        console.log(min + " minute ")
-    }
-    else if (min > 1 ){
-        console.log(min + " minutes ")
-    }  
+    console.log(timeString);
 }
-TimeConverter(120);
+timeConverter(122);
