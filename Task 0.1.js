@@ -5,7 +5,7 @@ console.log(x);
 console.log(y);
 
 x = x + 3;
-y =  + x;
+y = y + x;
 
 console.log(x);
 console.log(y);
