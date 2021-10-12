@@ -1,4 +1,4 @@
-function MaximumNumber(...args) {
+function maximumNumber(...args) {
     let maxNumber = args[0];
     for (let i = 0; i < args.length; i++) {
         if (args[i] > maxNumber) {
@@ -7,4 +7,4 @@ function MaximumNumber(...args) {
     }
     return maxNumber;
 }
-console.log(MaximumNumber(20, 30));
+console.log(maximumNumber(20, 30));
