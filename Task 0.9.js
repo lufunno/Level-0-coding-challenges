@@ -1,4 +1,4 @@
-function Vowels(str){
+function vowels(str){
     if(str == str.toUpperCase()){
     let capitalVowels =  [str.match(/[AEIOU]/g)]; 
     let vowelsResults = capitalVowels.join();
@@ -10,4 +10,4 @@ function Vowels(str){
         console.log("Vowels: " + vowelsResults); 
     } 
 }
-Vowels("Umuzi");
+vowels("Umuzi");
