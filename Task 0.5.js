@@ -1,6 +1,6 @@
-function TriangleArea(sideA, sideB, sideC){
+function triangleArea(sideA, sideB, sideC){
     let totalSide = (sideA + sideB + sideC) / 2;
     let area = Math.sqrt(totalSide * ((totalSide - sideA) * (totalSide - sideB) * (totalSide - sideC)));
     return area;
 }
-console.log(TriangleArea(10, 10, 10));
+console.log(triangleArea(10, 10, 10));
